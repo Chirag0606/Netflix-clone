@@ -1,0 +1,104 @@
+html,
+body {
+    background-color: #141414;
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+/* Header Css */
+header {
+    background-color: transparent;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    transition: all ease 600ms;
+}
+
+header.black-bg {
+    background-color: rgb(20, 20, 20);
+}
+
+.header-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-cont,
+.right-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-brand {
+    max-width: 110px;
+}
+
+.main-nav {
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    margin-right: 20px;
+    color: #e5e5e5;
+    opacity: .83;
+}
+
+.nav-item.active {
+    color: white;
+    opacity: 1;
+    font-weight: 500;
+}
+
+.right-cont svg,
+.right-cont img {
+    margin-right: 22px;
+    cursor: pointer;
+}
+
+.right-cont svg {
+    color: white;
+}
+
+.right-cont img {
+    max-width: 40px;
+}
+
+.nav-btn {
+    color: white;
+    text-decoration: none;
+}
+/* Header Css */
+
+
+
+
+
+@media (max-width:950px) {
+    .main-nav{
+        display: none;
+    }
+    .banner__overview, .banner__title{
+        max-width: 100%;
+    }
+}
