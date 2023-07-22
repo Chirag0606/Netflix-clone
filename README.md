@@ -1,7 +1,7 @@
 # Netflix-clone
 This is a simple Netflix clone web application built using HTML and CSS. The purpose of this project is to replicate the design and layout of the popular streaming service Netflix. With this clone, users can explore the interface that resembles Netflix and get a feel of how the original platform looks.
 
-![ss](https://drive.google.com/drive/folders/1NoPdkOs4IS5cy-uhbIwqX1cBGGziQLhK)
+![Netweb-ss](https://github.com/Chirag0606/Netflix-clone/assets/91214636/7a3c4c36-124c-4e45-813d-5955014d0f3b)
 
 ## Table of Contents
 * Features
