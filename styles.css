@@ -142,7 +142,7 @@ header.black-bg {
 
 
 
-@media (max-width:950px) {
+@media (max-width:930px) {
     .main-nav {
         display: none;
     }
